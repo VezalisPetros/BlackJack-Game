@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image:url("https://img.freepik.com/premium-photo/green-poker-table-background_87414-3611.jpg?w=2000");
+    background-size: cover;
+}
+
+.title{
+    margin-top:30px;
+    font-size: 50px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.message{
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+
+.elements{
+    
+    font-size: 40px;
+    text-align: center;
+    margin:20px ;
+    color:white;
+    font-weight: bold;
+    padding-top:20px;
+
+}
+.cards,.sum{
+    margin-bottom: 20px;
+}
+
+      .startGamebtn,.newCardbtn,.playAgainbtn,.standbtn{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    width: 400px;
+    padding:10px;
+    background-color:darkgoldenrod ;
+    border:none;
+    color: darkgreen;
+    border-radius: 10px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+ .elements button:active{
+    transform: scale(1.05);
+}
